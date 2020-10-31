@@ -2,7 +2,10 @@
   "name": "code",
   "version": "1.0.0",
   "main": "index.js",
-  "license": "MIT",
+	"scripts": {
+		"challenge1": "node challenge/question1/index.js ./challenge/question1/files/example.txt"
+	},
+	"license": "MIT",
   "devDependencies": {
     "eslint": "^5.16.0",
     "eslint-config-airbnb-base": "^14.2.0"
