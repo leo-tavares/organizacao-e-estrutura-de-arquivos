@@ -3,8 +3,10 @@
 > ###### com nodeJs
 
 - [Estrutura do projeto](#estrutura-do-projeto)
-- [Links úteis](#links-úteis)
 - [Roadmap](#roadmap)
+- [Guia de instalação](#guia-de-instalação)
+- [Como rodar os desafios](#como-rodar-os-desafios)
+- [Links úteis](#links-úteis)
 
 ## Roadmap
 
@@ -22,9 +24,19 @@ Lista com os tópicos necessários para implementar o projeto
 
 - warmup -> manipulação basica de arquivos texto
 
+## Guia de instalação
+
+- Use o [nodejs (LTS)](https://nodejs.org/en/download/releases/), esse projeto foi desenvolvido com a versão 12.19.
+- Se você precisar de diferentes versões do nodejs em sua maquina utilize o node version manager ([nvm](https://github.com/nvm-sh/nvm))
+
+- Instale as depêndencias com `yarn` ou `npm install` (**recomendo usar o yarn**).
+
+
 ## Como rodar os desafios?
 
 Existe um script com uma sugestão de execução para cada projeto você pode executar conforme os comandos abaixo.
+
+Em cada pasta de challenge existe um arquivo de teste dentro da pasta files
 
 ### yarn
 ```yarn challenge1```
